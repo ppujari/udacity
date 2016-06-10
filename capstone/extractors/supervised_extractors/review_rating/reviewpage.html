@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Review page</title>
+		<link rel="stylesheet" type="text/css" href="https://ll-us-i5.wal.co/dfw/63fd9f59-2579/k2-_e1c86c61-fbe6-4e66-bf40-c7be612ba40d.v1.css">
+		<link rel="stylesheet" type="text/css" href="https://ll-us-i5.wal.co/dfw/63fd9f59-a4e7/k2-_5423d425-f9e8-4480-867d-ad430e1f436d.v1.css">
+		<link rel="stylesheet" type="text/css" href="https://ll-us-i5.wal.co/dfw/63fd9f59-97d4/k2-_ce429021-09fe-4b18-8e7c-0aa073c53b6b.v1.css">
+		<link rel="stylesheet" type="text/css" href="https://i5.walmartimages.com/dfw/63fd9f59-8403/k2-_2b912b3a-9420-4168-b657-7abb9f99260c.v1.css" media="all">
+
+		<script data-main="js/main-init" src="js/require.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/cid-review.css">
+	</head>
+	<body>
+		<div class="submit-review-form-content">
+			<div class="Grid">
+				<div class="submit-review-your-rating Grid">
+					<div class="Grid-col u-size-2-12-s hide-content display-inline-block-m">
+						<span class="left-nav-title">Product rating</span>
+					</div>
+					<div class="Grid-col u-size-10-12-s">
+						<span class="display-form-label">Overall rating</span>
+						<div class="submit-review-ratings-container">
+							<div data-view-cid="view12" data-model-cid="c13">
+								<div class="submit-review-ratings">
+									<input type="hidden" id="review-rating" name="rating">
+									<button type="button" class="rating-selection js-rating-selection rating-unselected" data-index="1">
+										<span class="visuallyhidden"></span>
+									</button>
+									<button type="button" class="rating-selection js-rating-selection rating-unselected" data-index="2">
+										<span class="visuallyhidden"></span>
+									</button>
+									<button type="button" class="rating-selection js-rating-selection rating-unselected" data-index="3">
+										<span class="visuallyhidden"></span>
+									</button>
+									<button type="button" class="rating-selection js-rating-selection rating-unselected" data-index="4">
+										<span class="visuallyhidden"></span>
+									</button>
+									<button type="button" class="rating-selection js-rating-selection rating-unselected" data-index="5">
+										<span class="visuallyhidden"></span>
+									</button>
+									<i class="validation-marker"><span class="visuallyhidden">Help</span></i>
+									<span class="rating-selection-message js-rating-selection-message rating-selection-message--1"></span>
+								</div>
+							</div>
+						</div>
+						<div class="submit-review-recommend-friend">
+							<ul class="block-list">
+								<li class="radio-option-label display-form-label">I would recommend this to a friend</li>
+								<li class="radio radio-alt">
+									<input type="radio" name="recommendFriend" id="recommend-friend-yes" value="yes" data-validate-required="true" data-validate-error-message="This field is required" data-validate-error-container=".recommend-friend-error-container" class="parsley-validated">
+									<label for="recommend-friend-yes">Yes</label>
+								</li>
+								<li class="radio radio-alt recommend-friend-marker-container">
+									<input type="radio" name="recommendFriend" id="recommend-friend-no" value="no" data-validate-required="true" data-validate-error-message="This field is required" data-validate-error-container=".recommend-friend-error-container" class="parsley-validated">
+									<label for="recommend-friend-no">No<i class="validation-marker"><span class="visuallyhidden"></span></i>
+									</label>
+								</li>
+							</ul>
+							<div class="recommend-friend-error-container"></div>
+						</div>
+					</div>
+				</div>
+				<div class="submit-review-your-review">
+					<div class="Grid">
+						<div class="Grid-col u-size-2-12-s hide-content display-inline-block-m">
+							<span class="left-nav-title">Product review</span>
+						</div>
+						<div class="Grid-col u-size-10-12-s">
+							<div class="review-title-container">
+								<span class="display-form-label">Your review</span>
+								<label for="review-title" class="visuallyhidden">Title of your review. Give your review a catchy title.</label>
+								<div class="validation-group ">
+									<input class="form-control parsley-validated" id="review-title" name="title" type="text" placeholder="Review title" data-validate-error-message="Please enter a review title" data-validate="true" data-validate-required="true" value="">
+									<i class="validation-marker"><span class="visuallyhidden"></span></i>
+								</div>
+							</div>
+							<div class="review-body-container js-review-body textarea-container">
+								<span class="copy-small hide-content display-inline-block-m">Review</span>
+								<label for="review-body" class="visuallyhidden">Your review. Make sure you share specific feedback about this item. How did it work for you? What do you wish someone would have told you before buying it?</label>
+								<div class="validation-group ">
+									<textarea class="form-control parsley-validated" id="review-body" name="reviewText" data-validate-maxlength="8500" data-validate-maxlength-message="Please edit your review to meet our 8500 character maximum (approximately 1600 words)" data-validate-required-message="Enter a review of this item to share with other customers" data-validate-error-container=".submit-review-guideline-error-container" data-validate="true" data-validate-required="true"></textarea>
+									<i class="validation-marker">  <span class="visuallyhidden"></span></i>
+								</div>
+							</div>
+							<div class="Grid">
+							<span class="Grid-col u-size-6-12 submit-review-guideline-error-container"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="submit-review-about-you Grid">
+					<div class="Grid-col u-size-2-12-s hide-content display-inline-block-m">
+						<span class="left-nav-title">Nickname</span>
+					</div>
+					<div class="Grid-col u-size-10-12-s form-inline form-user-nickname">
+						<div>
+							<span class="hide-content-l display-inline-block copy-small">Your nickname is </span>
+							<input type="hidden" id="user-nickname" name="userNickname" value="MyRightToReview">
+							<span class="col-right">
+								<div class="user-nickname-populated">MyRightToReview</div>
+							</span>
+						</div>
+					</div>
+				</div>
+					<div class="submit-review-submit Grid">
+						<div class="Grid-col u-size-2-12-s hide-content display-inline-block-m"></div>
+						<div class="Grid-col u-size-10-12-s col-right">
+							<div class="option terms-and-condition-container">
+								<span class="copy-small">By submitting this review, you agree to the
+									<a href="#" role="button" class="js-show-guideline copy-small">Review guidelines &amp; Terms</a>
+								</span>
+							</div>
+							<div class="js-server-alert alert"></div>
+							<div class="submit-review-submit-controls">
+								<button class="btn js-submit-review hide-content display-inline-block-l" type="button">Submit</button>
+								<button class="btn btn-block js-submit-review hide-content-l" type="button">Submit</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
