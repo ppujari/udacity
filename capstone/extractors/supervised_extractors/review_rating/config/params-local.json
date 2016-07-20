@@ -1,0 +1,12 @@
+{
+    "algo": "lr", 
+    "attribute_name": "review_rating",
+    "evaluate": true,
+    "metric": "f1_macro",
+    "model_folder": "model",
+    "results_folder": "results", 
+    "threshold": 0.91,
+    "train": false,
+    "train_fraction": 0.8, 
+    "training_data_file": "/yelp_reviews_train.txt"
+}
