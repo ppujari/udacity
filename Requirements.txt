@@ -71,7 +71,7 @@ lxml==3.4.4
 MarkupSafe==0.23
 matplotlib==1.4.3
 mem-top==0.1.0
-mistune==0.5.1
+mistune==0.8.1
 mock==1.0.1
 multipledispatch==0.4.7
 nbconvert==4.1.0
