@@ -92,7 +92,7 @@ Pattern==2.6
 pep8==1.6.2
 pexpect==3.3
 pickleshare==0.5
-Pillow==2.7.0
+Pillow==6.2.0
 pkginfo==1.2.1
 ply==3.4
 psutil==2.2.1
