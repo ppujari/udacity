@@ -115,7 +115,7 @@ pytest==2.6.4
 python-crfsuite==0.8.2
 python-dateutil==2.4.1
 pytz==2015.2
-PyYAML==3.11
+PyYAML==5.1
 pyzmq==14.5.0
 qarth-webstruct===1.0.1-SNAPSHOT
 qtconsole==4.1.1
